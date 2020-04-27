@@ -1,7 +1,7 @@
 **AWS/AZURE**:<br/>
-Inbound/Outbound rules<br/>
-curl -o init.sh https://raw.githubusercontent.com/lugosidomotor/AcademyPrez1/master/init.sh
-sh init aws
+Setup Inbound/Outbound rules <br/>
+curl -o init.sh https://raw.githubusercontent.com/lugosidomotor/AcademyPrez1/master/init.sh <br/>
+sudo sh init.sh AWS
 
 **LB**:<br/>
 sudo apt-get install nginx <br/>
