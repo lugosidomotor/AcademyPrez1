@@ -1,3 +1,7 @@
+**AWS/AZURE**:<br/>
+Inbound/Outbound rules list item <br/>
+curl -o init.sh https://raw.githubusercontent.com/lugosidomotor/AcademyPrez1/master/init.sh list item
+
 **LB**:<br/>
 sudo docker run --name lb -p 1000:80 -v /home/dome/Desktop/loadbalacer_prep/LB:/etc/nginx/conf.d:ro -d nginx
 
