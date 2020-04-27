@@ -3,7 +3,11 @@ Inbound/Outbound rules<br/>
 curl -o init.sh https://raw.githubusercontent.com/lugosidomotor/AcademyPrez1/master/init.sh
 
 **LB**:<br/>
-sudo docker run --name lb -p 1000:80 -v $(pwd)/LB:/etc/nginx/conf.d:ro -d nginx
+sudo rm -rf * /etc/nginx/conf.d/
+sudo rm -rf * /etc/nginx/sites-available/
+sudo rm -rf * /etc/nginx/sites-enabled/
+sudo curl -o /etc/nginx/conf.d/default.conf https://raw.githubusercontent.com/lugosidomotor/AcademyPrez1/master/LB/default.conf
+sudo service nginx restart
 
 **Docker1:**<br/>
 sudo docker run --name docker1 -p 2000:80 -v $(pwd)/Docker1:/usr/share/nginx/html:ro -d nginx
