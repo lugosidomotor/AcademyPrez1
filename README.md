@@ -17,7 +17,7 @@ sudo docker run --name docker1 -p 2000:80 -v $(pwd)/Docker1:/usr/share/nginx/htm
 sudo docker run --name docker2 -p 3000:80 -v $(pwd)/Docker2:/usr/share/nginx/html:ro -d nginx
 
 
-SNIPPETS:
-Delete NGINX 
+**SNIPPETS:**
+Delete NGINX <br/>
 sudo apt-get purge nginx nginx-common nginx-full <br/>
 sudo dpkg --force-confmiss -i /var/cache/apt/archives/nginx-common_*.deb <br/>
