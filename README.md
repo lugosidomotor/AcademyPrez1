@@ -3,10 +3,10 @@ Inbound/Outbound rules<br/>
 curl -o init.sh https://raw.githubusercontent.com/lugosidomotor/AcademyPrez1/master/init.sh
 
 **LB**:<br/>
-sudo rm -rf * /etc/nginx/conf.d/
-sudo rm -rf * /etc/nginx/sites-available/
-sudo rm -rf * /etc/nginx/sites-enabled/
-sudo curl -o /etc/nginx/conf.d/default.conf https://raw.githubusercontent.com/lugosidomotor/AcademyPrez1/master/LB/default.conf
+sudo rm -rf * /etc/nginx/conf.d/<br/>
+sudo rm -rf * /etc/nginx/sites-available/<br/>
+sudo rm -rf * /etc/nginx/sites-enabled/<br/>
+sudo curl -o /etc/nginx/conf.d/default.conf https://raw.githubusercontent.com/lugosidomotor/AcademyPrez1/master/LB/default.conf<br/>
 sudo service nginx restart
 
 **Docker1:**<br/>
