@@ -5,4 +5,4 @@ Docker1:
 sudo docker run --name nginx -p 20:20 -v /home/dome/Desktop/loadbalacer_prep/Docker1:/usr/share/nginx/html:ro -d nginx
 
 Docker2:
-sudo docker run --name nginx -p 20:20 -v /home/dome/Desktop/loadbalacer_prep/Docker2:/usr/share/nginx/html:ro -d nginx
+sudo docker run --name nginx -p 30:30 -v /home/dome/Desktop/loadbalacer_prep/Docker2:/usr/share/nginx/html:ro -d nginx
