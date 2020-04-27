@@ -1,3 +1,4 @@
+![ ](https://i.imgur.com/90OCHRf.png)
 **AWS/AZURE**:<br/>
 Setup Inbound/Outbound rules <br/>
 curl -o init.sh https://raw.githubusercontent.com/lugosidomotor/AcademyPrez1/master/init.sh <br/>
