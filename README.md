@@ -28,6 +28,14 @@ sudo docker run --name docker2 -p 3000:80 -v $(pwd)/Docker2:/usr/share/nginx/htm
 
 ![ ](https://i.imgur.com/wZRtSxK.gif)
 
+**OPTIONS:** <br/>
+- weight=<number> - Sets the weight of the server, default=1 <br/>
+- max_conns=<number> - Limits active connections, default=0 <br/>
+- max_fails=<number> - Maximum unsuccessful connections, default=1 <br/>
+- fail_timeout=<time> - Sets fail timeout, default=10 seconds <br/>
+- backup - Marks the server as a backup server <br/>
+- down - Marks the server as a unavailable <br/>
+
 **SNIPPETS:** <br/>
 Delete NGINX <br/>
 sudo apt-get purge nginx nginx-common nginx-full <br/>
