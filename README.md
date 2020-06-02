@@ -1,5 +1,4 @@
-![](https://i.imgur.com/6vxN9Yz.png)
-Youtube link: https://www.youtube.com/watch?v=ONaVxXOOiZ0
+Youtube link: https://www.youtube.com/watch?v=ONaVxXOOiZ0 <br/>
 
 ![ ](https://i.imgur.com/90OCHRf.png)
 ![ ](https://i.imgur.com/izvEmja.png)
